@@ -29,8 +29,8 @@ app.post('/', async (req, res) => {
         model: "text-davinci-002",
         prompt: `${prompt}`,
         temperature: 0.1,
-        max_tokens: 500,
-        top_p: 0.6,
+        max_tokens: 100,
+        top_p: 0.1,
         frequency_penalty: 0,
         presence_penalty: 0,
      });
